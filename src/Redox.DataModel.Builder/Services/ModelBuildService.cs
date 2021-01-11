@@ -59,7 +59,7 @@
             {
                 File.Delete(fileName);
             }
-            var className = Path.GetFileNameWithoutExtension(fileName).FirstCharToUpper();
+            var className = Path.GetFileNameWithoutExtension(fileName).Replace("-", string.Empty).FirstCharToUpper();
             var nameSpace = string.Join(".", _config.DefaultNamespace, newFileDirectory.Name.FirstCharToUpper(), className);
             var jsonFile = Encoding.UTF8.GetString(fileContent);
             var schema = JsonSchema.FromJsonAsync(jsonFile).Result;
