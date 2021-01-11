@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redox.DataModel.Builder", "src\Redox.DataModel.Builder\Redox.DataModel.Builder.csproj", "{A81A35A9-AFD5-4189-8AF9-BF50034126F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9D7ED51B-BF90-4C71-9DCC-129505EEE6CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FD6CA1DE-0653-4AF0-8E89-86F417E3ED5C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A81A35A9-AFD5-4189-8AF9-BF50034126F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81A35A9-AFD5-4189-8AF9-BF50034126F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81A35A9-AFD5-4189-8AF9-BF50034126F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81A35A9-AFD5-4189-8AF9-BF50034126F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A81A35A9-AFD5-4189-8AF9-BF50034126F9} = {9D7ED51B-BF90-4C71-9DCC-129505EEE6CB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26D69550-0F76-4A95-8598-95975DF43F0E}
+	EndGlobalSection
+EndGlobal
