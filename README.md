@@ -1,7 +1,7 @@
 # Redox.DataModel.Builder
 
 ## What is Redox?
-[Redox](https://www.redoxengine.com/product/) is an EHR Integration API that connects custom products to healthcare organizations while eliminating infrastructure requirements, data transformation tasks, and security overhead of bespoke integration methods. 
+From their documentation, [Redox](https://www.redoxengine.com/product/) is an EHR Integration API that connects custom products to healthcare organizations while eliminating infrastructure requirements, data transformation tasks, and security overhead of bespoke integration methods. 
 It’s healthcare integration as a service presented as a single, standard, secure API endpoint. One connection to [Redox](https://www.redoxengine.com/product/) speeds customer acquisition and increases developer productivity.
 
 ## Let’s start
