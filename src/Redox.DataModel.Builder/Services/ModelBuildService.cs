@@ -51,7 +51,7 @@
             }
         }
 
-        private static async Task BuildModelFileAsync(string fileName, byte[] fileContent)
+        private async Task BuildModelFileAsync(string fileName, byte[] fileContent)
         {
             var newFileDirectory = new FileInfo(fileName).Directory;
             newFileDirectory.Create();
@@ -60,7 +60,7 @@
                 File.Delete(fileName);
             }
             var className = Path.GetFileNameWithoutExtension(fileName).FirstCharToUpper();
-            var nameSpace = string.Join(".", "Redox", "DataModels", newFileDirectory.Name.FirstCharToUpper(), className);
+            var nameSpace = string.Join(".", _config.DefaultNamespace, newFileDirectory.Name.FirstCharToUpper(), className);
             var jsonFile = Encoding.UTF8.GetString(fileContent);
             var schema = JsonSchema.FromJsonAsync(jsonFile).Result;
             var settings = new CSharpGeneratorSettings
