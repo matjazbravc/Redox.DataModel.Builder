@@ -30,9 +30,9 @@ All you have to do is set **DataModelFolder** location in **appsettings.json** f
 - [Visual Studio](https://www.visualstudio.com/vs/community) 2019 16.8.1 or greater 
 
 ## Tags & Technologies
-- [Redox](https://www.redoxengine.com/product/)
+- [Redox Engine](https://www.redoxengine.com/product/)
 - [Redox Blog](https://www.redoxengine.com/blog/)
-- [Redox Developer Guide](https://developer.redoxengine.com/)  
-- [NJsonSchema for .NET](https://github.com/RicoSuter/NJsonSchema)
+- [Redox Engine Developer Guide](https://developer.redoxengine.com/)
+- [NJsonSchema for .NET](https://github.com/RicoSuter/NJsonSchema) - JSON Schema reader, generator and validator for .NET
 
 For any questions/suggestions contact me on [LinkedIn](https://si.linkedin.com/in/matjazbravc).
